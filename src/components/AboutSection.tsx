@@ -1,5 +1,6 @@
 import { ChefHat, Leaf, Truck, Check } from 'lucide-react';
 
+
 const AboutSection = () => {
   // Section with scroll-margin for smooth navigation
   const features = [
@@ -20,19 +21,20 @@ const AboutSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Image */}
           <div className="relative">
-            <div className="relative rounded-3xl overflow-hidden">
-              <img
-                src="https://tasty-bites-rust.vercel.app/assets/biriyani-BrzFuepm.png"
-                alt="Our kitchen"
-                className="w-full h-full object-cover"
-              />
-              
-              {/* Experience Badge */}
-              <div className="absolute bottom-6 left-6 bg-primary text-primary-foreground px-6 py-4 rounded-2xl">
-                <div className="text-3xl font-bold">15+</div>
-                <div className="text-sm">Years Experience</div>
-              </div>
-            </div>
+<div className="relative rounded-3xl overflow-hidden">
+  <img
+    src="https://app.fuxcdn.de/api/6b5f73a9-2ca2-4589-b945-021e7529a854/thumbnail/b5/4c/70/1693989554/burger-classic-cheese-rezept_1280x1280.jpg?ts=1753774534"
+    alt="Our kitchen"
+    className="w-full h-full object-cover"
+  />
+
+  {/* Experience Badge */}
+  <div className="absolute bottom-6 left-6 bg-primary text-primary-foreground px-6 py-4 rounded-2xl">
+    <div className="text-3xl font-bold">15+</div>
+    <div className="text-sm">Years Experience</div>
+  </div>
+</div>
+
           </div>
 
           {/* Content */}
