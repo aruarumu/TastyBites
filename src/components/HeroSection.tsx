@@ -1,5 +1,7 @@
 import { Play, Star, Truck } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import heroImage from "@/images/HeroImage.jpg";
+
 
 const HeroSection = () => {
   const stats = [
@@ -72,7 +74,7 @@ const HeroSection = () => {
               {/* Main Image */}
               <div className="inset-0 overflow-hidden border-primary/20 float">
                 <img
-                  src="https://tasty-bites-rust.vercel.app/assets/chiken-6DFDDlVR.png"
+                  src={heroImage}
                   alt="Delicious food"
                   className="w-full h-full object-cover"
                 />
